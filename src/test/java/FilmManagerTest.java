@@ -15,21 +15,17 @@ public class FilmManagerTest {
         manager.addFilm("Film 8");
         manager.addFilm("Film 9");
         manager.addFilm("Film 10");
-
-        String[] expected = {"Film 1", "Film 2", "Film 3","Film 4","Film 5","Film 6","Film 7","Film 8","Film 9","Film 10"};
+        String[] expected = {"Film 1", "Film 2", "Film 3", "Film 4", "Film 5", "Film 6", "Film 7", "Film 8", "Film 9", "Film 10"};
         String[] actual = manager.findAll();
-        Assertions.assertArrayEquals(expected,actual);
+        Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void test2() {
         FilmManager manager = new FilmManager();
         manager.addFilm("Film 10");
-
-
-
-
         String[] expected = {"Film 10",};
         String[] actual = manager.findLast();
-        Assertions.assertArrayEquals(expected,actual);
+        Assertions.assertArrayEquals(expected, actual);
     }
 }
