@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="FilmManagerTest" time="0.016" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="FilmManagerTest" time="0.017" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Users\valo\.jdks\corretto-11.0.17\bin"/>
-    <property name="sun.java.command" value="C:\Users\valo\AppData\Local\Temp\surefire15543256377422672147\surefirebooter12452030264632035180.jar C:\Users\valo\AppData\Local\Temp\surefire15543256377422672147 2023-02-02T10-44-36_234-jvmRun1 surefire172930928383166109tmp surefire_017519149422730920792tmp"/>
+    <property name="sun.java.command" value="C:\Users\valo\AppData\Local\Temp\surefire10146969337490734809\surefirebooter9256329362551664210.jar C:\Users\valo\AppData\Local\Temp\surefire10146969337490734809 2023-02-04T17-30-11_685-jvmRun1 surefire8170214530275986469tmp surefire_013500634863571256785tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\valo\Desktop\films\target\test-classes;C:\Users\valo\Desktop\films\target\classes;C:\Users\valo\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\valo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\valo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\valo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\valo\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\valo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\valo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\valo\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\valo\AppData\Local\Temp\surefire15543256377422672147\surefirebooter12452030264632035180.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\valo\AppData\Local\Temp\surefire10146969337490734809\surefirebooter9256329362551664210.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+8-LTS"/>
@@ -63,4 +63,8 @@
   </properties>
   <testcase name="test" classname="FilmManagerTest" time="0.013"/>
   <testcase name="test2" classname="FilmManagerTest" time="0"/>
+  <testcase name="test3" classname="FilmManagerTest" time="0"/>
+  <testcase name="test4" classname="FilmManagerTest" time="0"/>
+  <testcase name="test5" classname="FilmManagerTest" time="0"/>
+  <testcase name="test6" classname="FilmManagerTest" time="0"/>
 </testsuite>
